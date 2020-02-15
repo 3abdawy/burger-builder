@@ -3,8 +3,14 @@
 # dependencies
 /node_modules
 
+#configuration
+/config
+
 # testing
 /coverage
+
+#scripts
+/scripts
 
 # production
 /build
