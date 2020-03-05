@@ -23,7 +23,7 @@ const order = props => {
         }}
       key ={ig.name}
       >
-        {ig.name} ({ig.amount}){" "}
+        {ig.name} ({ig.amount})
       </span>
     );
   });
@@ -31,7 +31,7 @@ const order = props => {
     <div className={classes.Order}>
       <p>Ingredients : {ingredientOutput}</p>
       <p>
-        Price : <strong>USD {props.price.toFixed(2)}</strong>{" "}
+        Price : <strong>USD {props.price.toFixed(2)}</strong>
       </p>
     </div>
   );
